@@ -1,0 +1,51 @@
+body
+{
+   background-image: url("blackjack.jpg");
+   background-size: cover;
+}
+.container-5
+{
+   color: white;
+   border: 1px solid black;
+   text-align: center;
+}
+.flex-blackjack-row1, .flex-blackjack-row2, .flex-blackjack-row3{
+    display: flex;
+    border: 1px solid black; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    color: white;
+}
+
+.flex-blackjack-row1 div
+{
+   padding: 10px;
+   flex: 1;
+   text-align: center;
+   height: 350px;
+   
+}
+
+.container-5 img
+{
+   width: 25%;
+   padding: 10px;
+}
+.flex-blackjack-row2 button 
+{
+   padding: 10px;
+   border: 1px solid black;
+}
+.flex-blackjack-row2 div
+{
+   padding: 10px;
+
+}
+table, th, td
+{
+   padding: 5px;
+   border: 1px solid white;
+   color: white;
+}
